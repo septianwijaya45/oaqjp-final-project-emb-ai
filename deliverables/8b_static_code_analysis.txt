@@ -1,0 +1,13 @@
+﻿pylint : C:\laragon\bin\python\python-3.10\lib\site-packages\pylint\__init__.py:34: ReporterWarning: Both NO_COLOR and 
+FORCE_COLOR are set! (disabling colors)
+At line:1 char:134
++ ... y -Force -Path deliverables | Out-Null; pylint server.py 2>&1 | Out-F ...
++                                             ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C:\laragon\bin\...sabling colors):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  PylintRun(argv or sys.argv[1:])
+
+--------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)
+
