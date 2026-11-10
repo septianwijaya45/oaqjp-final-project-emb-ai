@@ -1,0 +1,12 @@
+# Jalankan ulang di Theia: python3.11 scripts/generate_3b_formatted_output_test.py
+# Salin isi file tanpa ekstensi .txt (tanpa baris #) ke form evaluasi.
+
+theia@theiadocker:D:\Data Pribadi\Sertifikasi\Modul 7\final_project$ python3.11
+Python 3.10.6
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> print(emotion_detector('I am so happy I am doing this'))
+Traceback (most recent call last):
+  ... ConnectTimeout: HTTPSConnectionPool(host='sn-watson-emotion.labs.skills.network', port=443): Max retries exceeded with url: /v1/watson.runtime.nlp.v1/NlpService/EmotionPredict (Caused by ConnectTimeoutError(<HTTPSConnection(host='sn-watson-emotion.labs.skills.network', port=443) at 0x171b475acb0>, 'Connection to sn-watson-emotion.labs.skills.network timed out. (connect timeout=30)'))
+>>> exit()
+theia@theiadocker:D:\Data Pribadi\Sertifikasi\Modul 7\final_project$
